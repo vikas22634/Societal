@@ -77,16 +77,22 @@ const Share = () => {
             <label htmlFor="file">
               <div className="item">
                 <img src={Image} alt="" />
-                <span>Add Image</span>
+                <span style={{ color: "#51B5FF", fontSize: "bold" }}>
+                  Add Image
+                </span>
               </div>
             </label>
             <div className="item">
               <img src={Map} alt="" />
-              <span>Add Place</span>
+              <span style={{ color: "#51B5FF", fontSize: "bold" }}>
+                Add Place
+              </span>
             </div>
             <div className="item">
               <img src={Friend} alt="" />
-              <span>Tag Friends</span>
+              <span style={{ color: "#51B5FF", fontSize: "bold" }}>
+                Tag Friends
+              </span>
             </div>
           </div>
           <div className="right">

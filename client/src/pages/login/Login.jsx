@@ -26,35 +26,52 @@ const Login = () => {
       setErr(err.response.data);
     }
   };
+  const handleLoginTest = async (e) => {
+    e.preventDefault();
+    try {
+      navigate("/");
+    } catch (err) {
+      setErr(err.response.data);
+    }
+  };
 
   return (
     <div className="login">
       <div className="card">
-        <div className="left">
-          <span>
-            Don't you have an account?
-            <Link to="/register">
-              <button>Register</button>
-            </Link>
-          </span>
-        </div>
+        <div className="left"></div>
         <div className="right">
           <h1>Login</h1>
           <form>
+            <label htmlFor="Email" className="label">
+              Email
+            </label>
             <input
-              type="text"
+              type="email"
               placeholder="Username"
               name="username"
               onChange={handleChange}
             />
+            <label htmlFor="Password" className="label">
+              Password
+            </label>
             <input
               type="password"
               placeholder="Password"
               name="password"
               onChange={handleChange}
             />
+            <div>
+              <span>
+                Don't you have an account?
+                <Link to="/register">Register</Link>
+              </span>
+            </div>
+
             {err && err}
             <button onClick={handleLogin}>Login</button>
+            <button onClick={handleLoginTest}>
+              Log In With Test Credentials{" "}
+            </button>
           </form>
         </div>
       </div>

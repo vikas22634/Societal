@@ -1,18 +1,19 @@
 $themes: (
   light: (
     textColor: #27374d,
-    bg: #eff8ff,
-    logo: darkblue,
-    bgSoft: #f1f6f9,
+    bg: #1e293b,
+    logo: #ffffff,
+    bgSoft: #1c2440,
     textColorSoft: #555,
-    border: lightgray,
+    border: #51b5ff,
   ),
   dark: (
     textColor: whitesmoke,
-    bg: #222,
+    bg: #ffffff,
     logo: white,
-    bgSoft: #333,
+    bgSoft: #ffffff,
     textColorSoft: lightgray,
+    border: #444,
   ),
 );
 

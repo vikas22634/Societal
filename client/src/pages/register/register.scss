@@ -1,34 +1,20 @@
 .register {
-  height: 100vh;
-  background-color: rgb(193, 190, 255);
+  background-color: white;
   display: flex;
-  align-items: center;
   justify-content: center;
 
   .card {
-    width: 50%;
     display: flex;
-    flex-direction: row-reverse;
+    width: 600px;
     background-color: white;
+    justify-content: center;
     border-radius: 10px;
     min-height: 60px;
     overflow: hidden;
 
     .left {
-      flex: 1;
-      background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
-        url("https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600")
-          center;
-      background-size: cover;
-      padding: 50px;
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-      color: white;
-
       h1 {
         font-size: 100px;
-        line-height: 100px;
       }
 
       p {
@@ -54,30 +40,37 @@
       padding: 50px;
       display: flex;
       flex-direction: column;
-      gap: 50px;
+      gap: 30px;
       justify-content: center;
 
       h1 {
-        color: #555;
+        color: #312e81;
+        text-align: center;
       }
 
       form {
         display: flex;
         flex-direction: column;
-        gap: 30px;
-
+        gap: 20px;
+        label {
+          font-weight: bold;
+          font-size: small;
+        }
         input {
           border: none;
+          outline: none;
           border-bottom: 1px solid lightgray;
-          padding: 5px 5px;
+          padding: 8px 5px;
+          border-radius: 2%;
         }
 
         button {
-          width: 50%;
           padding: 10px;
           border: none;
-          background-color: #938eef;
+          background-color: #51b5ff;
           color: white;
+
+          border-radius: 30px;
           font-weight: bold;
           cursor: pointer;
         }
@@ -85,3 +78,5 @@
     }
   }
 }
+
+//how to

@@ -26,23 +26,10 @@ const Register = () => {
     }
   };
 
-  console.log(err);
-
   return (
     <div className="register">
       <div className="card">
-        <div className="left">
-          <h1>Lama Social.</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum,
-            alias totam numquam ipsa exercitationem dignissimos, error nam,
-            consequatur.
-          </p>
-          <span>Do you have an account?</span>
-          <Link to="/login">
-            <button>Login</button>
-          </Link>
-        </div>
+        <div className="left"></div>
         <div className="right">
           <h1>Register</h1>
           <form>
@@ -70,6 +57,10 @@ const Register = () => {
               name="name"
               onChange={handleChange}
             />
+            <span>
+              Do you have an account?
+              <Link to="/login">Login</Link>
+            </span>
             {err && err}
             <button onClick={handleClick}>Register</button>
           </form>
