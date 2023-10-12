@@ -28,9 +28,9 @@ npm start / npm run build
 ```
 git clone https://github.com//Societal.git](https://github.com/vikas22634/Societal.git
 
-cd client
+cd api 
 
-npm install
+nodemon index.js
 
 npm start / npm run build
 ```
