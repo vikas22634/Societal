@@ -1,17 +1,17 @@
 #  Social Media App - React App
 <div align="center">
-<img src="" height="100" width="100" alt="logo" style="position: relative; left: 150px;">
+<img src="https://github.com/vikas22634/Societal/assets/75554973/020f9062-14a4-4a15-bee6-dd4dacd3bfe4" height="50" width="50" alt="logo" style="position: relative; left: 150px;">
 
+# Socially
+  A Social Media App 
+</div>
 
-
-
-This project is designed to simplify invoice management using React and Redux. It empowers users to effortlessly create detailed invoices, specifying quantities, prices, tax rates, and discounts. Once generated, these invoices can be conveniently downloaded as PDFs. Additionally, users have the flexibility to view, edit, or delete invoices from the list. For enhanced efficiency, the system also allows for the creation of new invoices using existing data.
-
-### Screenshots
+### Screenshot
 
 <img width="949" alt="Screenshot 2023-10-12 185334" src="https://github.com/vikas22634/Societal/assets/75554973/96eb00b5-f2cf-4a5d-8f00-d8b7b115f389">
 <img width="947" alt="Screenshot 2023-10-12 191321" src="https://github.com/vikas22634/Societal/assets/75554973/0bf8e4cf-3a1f-4a72-a3c9-4f6ba71fa886">
-<img width="949" alt="Screenshot 2023-10-12 190858" src="https://github.com/vikas22634/Societal/assets/75554973/44f9b0ea-2e3a-4812-8af0-c4d9e1f99153">
+<img width="943" alt="Screenshot 2023-10-12 200526" src="https://github.com/piyusha1807/invoice-generator/assets/75554973/6ea8468f-837d-4d11-a863-dabc738b284f">
+<img width="947" alt="Screenshot 2023-10-12 200538" src="https://github.com/piyusha1807/invoice-generator/assets/75554973/3fc67111-b53a-4759-b025-c20381c7e48b">
 
 
 ### Installation
