@@ -40,9 +40,16 @@
       padding: 50px;
       display: flex;
       flex-direction: column;
-      gap: 30px;
+      gap: 10px;
       justify-content: center;
 
+      img {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        left: 220px;
+        text-align: center;
+      }
       h1 {
         color: #312e81;
         text-align: center;

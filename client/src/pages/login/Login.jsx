@@ -28,11 +28,10 @@ const Login = () => {
   };
   const handleLoginTest = async (e) => {
     e.preventDefault();
-    try {
-      navigate("/");
-    } catch (err) {
-      setErr(err.response.data);
-    }
+
+    setInputs({ username: "test20", password: "test20" });
+    await login(inputs);
+    navigate("/");
   };
 
   return (
@@ -40,10 +39,12 @@ const Login = () => {
       <div className="card">
         <div className="left"></div>
         <div className="right">
+          <div></div>
+          <img src="/upload/Logo.png" alt="" style={{}} />
           <h1>Login</h1>
           <form>
             <label htmlFor="Email" className="label">
-              Email
+              Username
             </label>
             <input
               type="email"

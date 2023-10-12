@@ -19,7 +19,14 @@ const Navbar = () => {
     <div className="navbar" style={{ backgroundColor: "#0B1829" }}>
       <div className="left">
         <Link to="/" style={{ textDecoration: "none" }}>
-          <span>Societal</span>
+          <span>
+            <img
+              src="/upload/Logo.png"
+              alt=""
+              style={{ position: "relative" }}
+            />
+            Societal
+          </span>
         </Link>
         <HomeOutlinedIcon className="icon" />
         {darkMode ? (

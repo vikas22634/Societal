@@ -19,7 +19,7 @@ const Post = ({ post }) => {
 
   const { currentUser } = useContext(AuthContext);
 
-  const { isLoading, data } = useQuery(["likes", post.id], () =>
+  const { isLoading, error, data } = useQuery(["likes", post.id], () =>
     makeRequest.get("/likes?postId=" + post.id).then((res) => {
       return res.data;
     })
@@ -39,6 +39,7 @@ const Post = ({ post }) => {
       },
     }
   );
+
   const deleteMutation = useMutation(
     (postId) => {
       return makeRequest.delete("/posts/" + postId);
@@ -50,6 +51,41 @@ const Post = ({ post }) => {
       },
     }
   );
+
+  // Function to render user information based on the condition
+  const renderUserInfo = () => {
+    if ("test20" === post.name) {
+      return (
+        <div className="userInfo">
+          <img src={"/upload/16933038249871898.jpg"} alt="" />
+          <div className="details">
+            <Link
+              to={`/profile/${post.userId}`}
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <span className="name">{"test20"}</span>
+            </Link>
+            <span className="date">{moment(post.createdAt).fromNow()}</span>
+          </div>
+        </div>
+      );
+    } else {
+      return (
+        <div className="userInfo">
+          <img src={"/upload/" + post.profilePic} alt="" />
+          <div className="details">
+            <Link
+              to={`/profile/${post.userId}`}
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <span className="name">{post.name}</span>
+            </Link>
+            <span className="date">{moment(post.createdAt).fromNow()}</span>
+          </div>
+        </div>
+      );
+    }
+  };
 
   const handleLike = () => {
     mutation.mutate(data.includes(currentUser.id));
@@ -63,18 +99,7 @@ const Post = ({ post }) => {
     <div className="post">
       <div className="container">
         <div className="user">
-          <div className="userInfo">
-            <img src={"/upload/" + post.profilePic} alt="" />
-            <div className="details">
-              <Link
-                to={`/profile/${post.userId}`}
-                style={{ textDecoration: "none", color: "inherit" }}
-              >
-                <span className="name">{post.name}</span>
-              </Link>
-              <span className="date">{moment(post.createdAt).fromNow()}</span>
-            </div>
-          </div>
+          {renderUserInfo()}
           <MoreHorizIcon onClick={() => setMenuOpen(!menuOpen)} />
           {menuOpen && post.userId === currentUser.id && (
             <button onClick={handleDelete}>delete</button>

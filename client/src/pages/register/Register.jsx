@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import "./register.scss";
 import axios from "axios";
 
@@ -21,6 +21,7 @@ const Register = () => {
 
     try {
       await axios.post("http://localhost:8800/api/auth/register", inputs);
+      Navigate("/login");
     } catch (err) {
       setErr(err.response.data);
     }
@@ -31,6 +32,7 @@ const Register = () => {
       <div className="card">
         <div className="left"></div>
         <div className="right">
+          <img src="/upload/Logo.png" alt="" style={{}} />
           <h1>Register</h1>
           <form>
             <input
