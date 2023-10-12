@@ -8,7 +8,9 @@ https://enchanting-manatee-3aab8d.netlify.app
 
 ### Screenshots
 
-
+<img width="949" alt="Screenshot 2023-10-12 185334" src="https://github.com/vikas22634/Societal/assets/75554973/96eb00b5-f2cf-4a5d-8f00-d8b7b115f389">
+<img width="949" alt="Screenshot 2023-10-12 190030" src="https://github.com/vikas22634/Societal/assets/75554973/584d364e-6c47-4a56-86f6-38a5a165c56c">
+<img width="477" alt="Screenshot 2023-10-12 190159" src="https://github.com/vikas22634/Societal/assets/75554973/9e117de2-623d-4479-a6f2-84e7fd0c220d">
 ### Installation
 Make sure you have Node.js version 16.20.2 installed.
 ```
