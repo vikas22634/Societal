@@ -1,10 +1,11 @@
-# Invoice Generator - React App
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+#  Social Media App - React App
+<div align="center">
+<img src="" height="100" width="100" alt="logo" style="position: relative; left: 150px;">
+
+
+
 
 This project is designed to simplify invoice management using React and Redux. It empowers users to effortlessly create detailed invoices, specifying quantities, prices, tax rates, and discounts. Once generated, these invoices can be conveniently downloaded as PDFs. Additionally, users have the flexibility to view, edit, or delete invoices from the list. For enhanced efficiency, the system also allows for the creation of new invoices using existing data.
-
-## Live Demo
-https://enchanting-manatee-3aab8d.netlify.app
 
 ### Screenshots
 
@@ -16,7 +17,18 @@ https://enchanting-manatee-3aab8d.netlify.app
 ### Installation
 Make sure you have Node.js version 16.20.2 installed.
 ```
-git clone https://github.com//Societal.git
+git clone https://github.com//Societal.git](https://github.com/vikas22634/Societal.git
+
+cd client
+
+npm install
+
+npm start / npm run build
+```
+```
+git clone https://github.com//Societal.git](https://github.com/vikas22634/Societal.git
+
+cd client
 
 npm install
 
@@ -24,13 +36,24 @@ npm start / npm run build
 ```
 
 ### To-Do
-- [x] Create new invoice and store it in Redux store
-- [x] Added save or edit invoice button in modal
-- [x] Open, edit, view, and delete invoices from the invoice list
-- [x] Added router to view invoice list and invoice form on separate pages
-- [x] Added pagination to the invoice list
-- [x] Create an error page to handle not found routes
+- [x] Create new Social Media App and store it in MySql Database
+- [x] Implement user authentication and authorization system
+- [x] Develop a news feed for displaying user posts
+- [x] Implement a like and comment system for posts 
+- [x] Add the option to follow/unfollow other users
+- [x] Implement dark mode and light mode themes
+- [x] Optimize app for mobile and desktop responsiveness
+- [x] Design  a user search functionality
+
+### Built With
+- [x] React.js
+- [x] Node.js
+- [x] Express.js
+- [x] SQL
+- [x] React-Router-Dom
+- [x] Scss   
+
 
 ### Meta
 
-Piyush Agrawal – piyushagrawal1807@gmail.com
+Vikas Agrawal – vikassinghal22634mail.com
