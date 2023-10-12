@@ -9,12 +9,14 @@ https://enchanting-manatee-3aab8d.netlify.app
 ### Screenshots
 
 <img width="949" alt="Screenshot 2023-10-12 185334" src="https://github.com/vikas22634/Societal/assets/75554973/96eb00b5-f2cf-4a5d-8f00-d8b7b115f389">
-<img width="949" alt="Screenshot 2023-10-12 190030" src="https://github.com/vikas22634/Societal/assets/75554973/584d364e-6c47-4a56-86f6-38a5a165c56c">
+<img width="947" alt="Screenshot 2023-10-12 191321" src="https://github.com/vikas22634/Societal/assets/75554973/0bf8e4cf-3a1f-4a72-a3c9-4f6ba71fa886">
 <img width="949" alt="Screenshot 2023-10-12 190858" src="https://github.com/vikas22634/Societal/assets/75554973/44f9b0ea-2e3a-4812-8af0-c4d9e1f99153">
+
+
 ### Installation
 Make sure you have Node.js version 16.20.2 installed.
 ```
-git clone https://github.com/piyusha1807/invoice-generator.git
+git clone https://github.com//Societal.git
 
 npm install
 
