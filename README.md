@@ -2,7 +2,7 @@
 <div align="center">
 <img src="https://github.com/vikas22634/Societal/assets/75554973/020f9062-14a4-4a15-bee6-dd4dacd3bfe4" height="50" width="50" alt="logo" style="position: relative; left: 150px;">
 
-# Socially
+# Societal
   A Social Media App 
 </div>
 
